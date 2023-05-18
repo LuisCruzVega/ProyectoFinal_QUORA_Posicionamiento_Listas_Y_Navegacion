@@ -1,0 +1,73 @@
+@media (max-width: 767px){/*Cel parado*/
+    nav {
+        height: 86px;
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(50%, rgba(185,43,39,1)), color-stop(100%, rgba(185,43,39,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b92b27', GradientType=1 );
+    }
+    section nav ul li#Buscar div#contenedor_MetaBuscador div#img_MetaBuscador img{
+        display: none;
+    }
+    nav li#ButtonStarSesion button {
+        height: 29px;
+        padding: 0px 11px;
+        color: #2e69ff;
+        background: white;
+    }
+    aside#Article-Primary{
+        margin-top: 61px !important;
+        display: none !important;
+    }
+    nav li input#Search {
+        display: none;
+    }
+    nav li{
+        margin-top: 35px;
+    }
+    nav li#Buscar {
+        width: 66.5%;
+    }
+    nav li#ButtonStarSesion button {
+        position: relative;
+        height: 29px;
+        width: max-content;
+        padding: 0px 11px;
+        color: #2e69ff;
+        font-weight: bold;
+        background: white;
+        bottom: 4px;
+    }
+    section div.Container-all div.Container-Generic-all {
+        display: inline-block;
+        width: auto;
+    }
+    section div.Container-all div.Container-Generic-all, section div.Container-all aside#Article-Primary {
+        margin: 64px 0px;
+    }
+    section nav ul{
+        height: 100%;
+    }
+    section footer div > ul {
+        display: flex;
+        width: max-content;
+    }
+}
+@media (min-width:667px) and (max-width:767px){ /*Cel Hechado*/
+    nav {
+        height: 46px;
+    }
+    nav li {
+        margin-top: 10px;
+    }
+    section div.Container-all div.Container-Generic-all, section div.Container-all aside#Article-Primary {
+        margin: 29px 0px;
+    }
+    section div.Container-all div.Container-Generic-all div button#Boton-Medio {
+        width: 21%;
+    }
+}

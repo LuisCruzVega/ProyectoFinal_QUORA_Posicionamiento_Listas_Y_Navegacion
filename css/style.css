@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-shadow: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    position: fixed;
+    border-color: #dee0e1 !important;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px #dee0e1;
+    z-index: 9;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 0px 0px 15px;
+    margin: 9px 0px 9px 0px;
+}
+nav li#Logo img {
+    margin: -12px 0px 0px 0px;
+    left: 45%;
+}
+nav li#Logo, nav li#ButtonStarSesion{
+    position: relative;
+    width: 12.5%
+}
+nav li#Logo img{
+    position: absolute;
+}
+nav li div div#img_MetaBuscador{
+    position: absolute;
+    display: inline-block;
+}
+nav li div div#img_MetaBuscador img{
+    margin: 6px 0px 0px 8px;
+}
+nav li#Buscar{
+    width: 70.5%;
+}
+nav li input#Search{
+    width: 100%;
+    height:36px;
+    padding: 0px 0px 0px 36px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+nav li input#Search:hover{
+    border: 1px solid #2e69ff!important;
+}
+nav li#ButtonStarSesion button{
+    border-radius: 25px;
+    height: 36px;
+    padding: 0px 20px;
+    background: #B92A26;
+    font-size: 13px;
+    color:white;
+    border:none;
+}
+nav li#ButtonStarSesion button:hover{
+    background: #A92623;
+}
+div.Container-all{
+    width:100%;
+    text-align: center;
+    background-color: #F0F3F2;
+    margin: 0px auto;
+}
+section div.Container-all div.Container-Generic-all{
+    display: inline-block;
+    width: 56%;
+}
+section div.Container-all aside#Article-Primary{
+    display: inline-block;
+    width:25%;
+}
+section div.Container-all div.Container-Generic-all, section div.Container-all aside#Article-Primary{
+    margin: 64px 47px;
+}
+section div.Container-all div.Container-Generic-all div.Replica div#Tentative-Cuestion h1{
+    font-size: 21px;
+}
+section div.Container-all div.Container-Generic-all div#Tentative-Cuestion{
+    width:100%;
+    background: #FFFEFE;
+    border: 1px solid #dee0e1;
+    padding: 15px 15px;
+    text-align: left;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li, section div.Container-all div.Container-Generic-all div.Content-Generic ul li button div{
+    display: inline-block;
+    margin: 5px;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li button#Button-1{
+    border: none;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li button#Button-1:hover{
+    border-radius: 25px !important;
+    background-color:rgba(0,0,0,.03);
+    border: solid 1px rgba(0,0,0,.03);
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li button div div a{
+    margin: 4px auto;
+    padding: 0px 3px;
+    color: #636466;
+    font-size: 13px;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li{
+    line-height: 40px;
+    color: #636466;
+    position: relative;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li.Push{
+    margin-left: auto;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li button#Button-2{
+    border-radius: 25px;
+    border: rgba(99, 100, 102, 0.2) 1px solid !important;
+}
+section div.Container-all div.Container-Generic-all div.Content-Generic ul li button#Button-2:hover{
+    background-color:rgba(0,0,0,.03);
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all{
+    background-color: white;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all{
+    width: 100%;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div{
+    width: 90%;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all img{
+    position: relative;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    bottom: 18px;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div span{
+   font-weight: bold;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div p{
+    color: #636466;
+    display: inline;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div a.Name{
+    color: black;
+    font-weight: 900;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div a.Name:hover{
+    text-decoration: underline;
+}
+section div.Container-all div.Container-Generic-all div.information{
+    text-align: left;
+    padding: 15px;
+    font-size: 15px;
+}
+section div.Container-all div.Container-Generic-all div:hover{
+    background-color: rgba(0,0,0,.03);
+}
+section div.Container-all div.Container-Generic-all div button#Boton-Medio{
+    border-radius: 25px;
+    border: rgba(99, 100, 102, 0.2) 1px solid !important;
+    width: 25%;
+    height: 28px;
+}
+section div.Container-all div.Container-Generic-all div button a{
+    display: inline-flex;
+    border-radius: 25px;
+}
+section div.Container-all div.Container-Generic-all div button a div{
+    margin-left: 8px;
+    color: #636466;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Interaction-all{
+    flex-direction: row;
+    display: flex;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Interaction-all div{
+    display: inline-block;
+    margin: 5px 8px;
+    align-self: flex-end;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Interaction-all div#Like-NotLike{
+    border: rgba(99, 100, 102, 0.2) 1px solid !important;
+    border-left: solid 1px #195faa;
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Interaction-all div#Like-NotLike:hover{
+    background-color:rgba(0,0,0,.03);
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Interaction-all div.Interaction{
+    border-radius: 25px;     
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Interaction-all div.Interaction:hover{
+    border-radius: 25px;
+    background-color:rgba(0,0,0,.03);
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all img.Perfil1{
+    bottom: 1px;
+}
+section div.Container-all div.Container-Generic-all div.Replica div.Content-Information-all div.information button{
+    border: none;
+}
+section div.Container-all div.Container-Generic-all div.Replica div.Content-Information-all div.information button a{
+    color:#636466;
+}
+section div.Container-all div.Container-Generic-all div.Replica div.Content-Information-all div.information span a{
+    font-weight: bold;
+    color: black;
+}
+section div.Container-all div.Container-Generic-all div.Replica div.Content-Information-all div.information div.Lids-Container{
+    text-align: center;
+}
+section div.Container-all div.Container-Generic-all div.Replica{
+    margin: 17px 0px;
+    box-shadow:  1px 1px #ccc;
+}
+section div.Container-all div.Container-Generic-all div.Replica aside#Article-Secondary{
+    text-align: left;
+    padding: 13px 13px;
+    background: white;
+    font-size: 17px;
+}
+section div.Container-all div.Container-Generic-all div.Replica aside#Article-Secondary:hover{
+    background: white;
+}
+section div.Container-all div.Container-Generic-all div.Replica aside#Article-Secondary div{
+    margin: 15px 0px;
+    margin-bottom: 9px;
+}
+section div.Container-all div.Container-Generic-all div.Replicac a hover {
+    background-color: rgba(0,0,0,.03);
+}
+section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div a.Years:hover{
+    text-decoration: underline;
+}
+aside#Article-Primary div.Container-Related-Question{
+    text-align: left;
+    padding-left: 15px;
+    font-size: 15px;
+    background: #FFFEFE;
+    border: 1px solid #dee0e1;
+    margin-top: -5px;
+}
+aside#Article-Primary div.Container-Related-Question div{
+    margin: 15px 0px;
+    margin-bottom: 9px;
+}
+aside#Article-Primary div.Container-Related-Question div a{ 
+    color: #195faa;    
+}
+section footer{
+    text-decoration: none !important;
+    margin: auto;
+    background-color: #F0F2F3;
+}
+section footer div{
+   
+    text-align: center;
+}
+section footer ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0px 5px;
+    padding-bottom: 5px;
+}
+section footer div > ul {
+    display: flex;
+    justify-content: center;
+    margin-top: -33px;
+}
+section footer ul li a, section footer ul li{
+    color:#636466;
+    font-size: 13px;
+}
+section footer ul li a:hover{
+    text-decoration: underline;
+}
+section footer div{
+    border-top: 1px solid red !important;
+}
+aside#Article-Primary{
+    margin-top:56px;
+}

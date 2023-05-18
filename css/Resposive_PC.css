@@ -1,0 +1,5 @@
+@media(min-width: 1200px){/*Portatiles o pc*/
+    aside#Article-Primary {
+        margin-top: 86px !important;
+    }
+}

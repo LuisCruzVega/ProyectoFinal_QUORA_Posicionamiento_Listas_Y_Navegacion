@@ -1,0 +1,132 @@
+@media (max-width: 1199px) and (min-width: 992px){/*IPAD HECHADO*/
+    nav{
+        height: 46px;
+        position: fixed;
+        z-index: 99999;
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(50%, rgba(185,43,39,1)), color-stop(100%, rgba(185,43,39,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b92b27', GradientType=1 );
+    }
+    nav li {
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+        margin: 9px 12px 9px 0px;
+    }
+    nav li input#Search {
+        display: none;
+    }
+    nav li#ButtonStarSesion button {
+        height: 29px;
+        padding: 0px 11px;
+        color: #2e69ff;
+        background: white;
+    }
+    nav li#Logo img {
+        left: 12%;
+    }
+    section nav ul li#Buscar div#contenedor_MetaBuscador div#img_MetaBuscador img{
+        display: none;
+    }
+    section div.Container-all div.Container-Generic-all, section div.Container-all aside#Article-Primary {
+        margin: 28px 0px;
+    }
+    section div.Container-all div.Container-Generic-all {
+        display: inline-block;
+        width: 100%;
+    }
+    section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all img {
+        bottom: 5px;
+    }
+    section div.Container-all div.Container-Generic-all div button#Boton-Medio {
+        width: 14%;
+    }
+    aside#Article-Primary{
+        margin-top: 61px !important;
+        display: none !important;
+    }
+
+}
+/*Pantallas pequeñas, mayores a 768 a 991 (sm) ---> col-sm*/
+@media (max-width: 991px) and (min-width: 761px){/*IPAD NORMAL*/
+    nav {
+        height: 36px;
+        z-index: 99999;
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(50%, rgba(185,43,39,1)), color-stop(100%, rgba(185,43,39,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(185,43,39,1) 50%, rgba(185,43,39,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b92b27', GradientType=1 );
+    }
+    nav li {
+        margin: 5px 2px 0px -2px;
+    }
+    nav li#Logo img {
+        position: relative;
+        width: 60px;
+        left: 15px;
+        margin: 0px 8px -4px -6px;
+    }
+    nav li input#Search {
+        height: 26px;
+        display: none;
+    }
+    nav li#Logo, nav li#ButtonStarSesion {
+        width: revert;
+    }
+    nav li#ButtonStarSesion button {
+        height: 26px;
+        padding: 0px 9px;
+        font-weight: bold;
+        color: #2e69ff;
+        background: white;
+    }
+    section nav ul li#Buscar div#contenedor_MetaBuscador div#img_MetaBuscador img{
+        display: none;
+    }
+    section div.Container-all div.Container-Generic-all {
+        width: 88%;
+    }
+    section div.Container-all div.Container-Generic-all div.Replica {
+        margin: 17px -41px;
+    }
+    aside#Article-Primary div.Container-Related-Question {
+        margin-left: 51px;
+        width: 229px;
+        margin-top: 17px;
+    }
+    section div.Container-all div.Container-Generic-all, section div.Container-all aside#Article-Primary {
+        margin: 18px 47px;
+    }
+    section div.Container-all div.Container-Generic-all div.Content-Generic ul li, section div.Container-all div.Container-Generic-all div.Content-Generic ul li button div {
+        display: inline-block;
+        margin: 0px 3px;
+    }
+    section div.Container-all div.Container-Generic-all div#Tentative-Cuestion {
+        padding: 10px 10px;
+        text-align: left;
+    }
+    section div.Container-all div.Container-Generic-all div.Replica div#Tentative-Cuestion h1 {
+        font-size: 15px;
+    }
+    section div.Container-all div.Container-Generic-all div.Content-Information-all div.Container-Profile-and-Joobs-and-Interaction-all div {
+        width: 85%;
+    }
+    section div.Container-all div.Container-Generic-all div button#Boton-Medio {
+        width: 19%;
+    }
+    section div.Container-all div.Container-Generic-all div.Replica div.Content-Information-all div.information div.Lids-Container img{
+        width: 100%;
+    }
+    aside#Article-Primary {
+        margin-top: 42px !important;
+        display: none !important;
+    }
+}
